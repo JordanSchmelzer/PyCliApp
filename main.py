@@ -1,13 +1,9 @@
-import typer
-
 # run bash shell cmd in Py
 import subprocess
 
-# from collections.abc import Mapping
-# from PyInquirer import prompt_toolkit
-#  from collections.abc import Mapping
 # from PyInquirer import prompt, print_json, Spearator
 from rich import print as rprint
+import typer
 
 app = typer.Typer()
 
